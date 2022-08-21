@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TienQR</string>
+    <!--扫一扫-->
+    <string name="title_activity_scan_qr_code">Quét</string>
+    <string name="qc_code_close">Khép kín</string>
+    <string name="qr_code_select_picture">Chọn Ảnh</string>
+    <string name="qr_code_open_flash_light">Bật đèn flash</string>
+    <string name="qr_code_close_flash_light">Tắt đèn flash</string>
+    <string name="qr_code_auto_scan_notification">Put the QR code in the box and it can be scanned automatically</string>
+    <string name="qr_code_notification">dấu</string>
+	<string name="qr_code_create">Tạo</string>
+    <string name="qr_code_camera_not_open"></string>
+    <string name="qr_code_positive_button_know">hiểu</string>
+    <string name="qr_code_positive_button_confirm">xác nhận</string>
+    <string name="qr_code_could_not_read_qr_code_from_picture">The link in the picture is not read out, try another picture~</string>
+    <string name="qr_code_could_not_read_qr_code_from_scanner">对不起，无法打开扫出的内容</string>
+    <string name="qr_code_camera_not_found">Máy ảnh không được phát hiện</string>
+</resources>

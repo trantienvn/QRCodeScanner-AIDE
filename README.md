@@ -1,2 +1,2 @@
 # QRCodeScanner-AIDE
-QR code scanner using zxing lib
+Qr code scanner using zxing lib

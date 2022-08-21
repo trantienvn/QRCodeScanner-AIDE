@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion COMPILE_SDK_VERSION
+    buildToolsVersion BUILD_TOOLS_VERSION
+
+    defaultConfig {
+        applicationId "trantien.qrcodescanner"
+        minSdkVersion 15
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:25.3.1'
+	implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+}
