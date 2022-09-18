@@ -1,9 +1,8 @@
 package trantien.qrcodescanner.qrcode.create;
 
 import android.graphics.Bitmap;
-import android.support.annotation.Nullable;
 import android.util.Log;
-
+import androidx.annotation.Nullable;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.EncodeHintType;
 import com.google.zxing.WriterException;
