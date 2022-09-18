@@ -15,14 +15,13 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 import com.google.zxing.BinaryBitmap;
 import com.google.zxing.ChecksumException;
 import com.google.zxing.FormatException;
@@ -40,7 +39,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import trantien.qrcodescanner.R;
 import trantien.qrcodescanner.qrcode.create.QRCode;
-import java.io.OutputStream;
 import trantien.qrcodescanner.qrcode.create.QRCodeEncoder;
 
 public class QRActivity extends AppCompatActivity {
