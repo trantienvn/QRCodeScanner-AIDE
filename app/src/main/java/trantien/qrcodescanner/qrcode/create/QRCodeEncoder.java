@@ -19,7 +19,7 @@ package trantien.qrcodescanner.qrcode.create;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.provider.ContactsContract;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.telephony.PhoneNumberUtils;
 import android.util.Log;
 import com.google.zxing.BarcodeFormat;
